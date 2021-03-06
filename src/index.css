@@ -1,0 +1,166 @@
+table{
+    border-collapse: collapse;
+}
+.leftNav{
+    background-color: #394590;
+    color: white;
+    width: 5%;    
+}
+.leftNav div{
+    margin-bottom: 700px;
+}
+.leftNavLinks{    
+    list-style: none;
+    display: contents;
+}
+.leftNavLinks li{    
+    font-size: x-large;
+    padding: 0;
+    margin: 0; 
+    text-align: center;
+}
+.navTop{
+    background-color: #4A6FF0;
+    display: flex;
+    justify-content: space-between;    
+    color: white;
+}
+.navTop h3{
+    margin-left: 10%;
+}
+.navTopLinks{
+    margin-right: 15px;
+}
+.navTopLinks li{
+    list-style: none;
+    display: inline;
+    padding-left: 5px;
+}
+.chartsContainer{
+    width: 90%;
+    margin-left: 10%;
+}
+.performanceManagement{
+    padding-left: 10%;
+    font-size: x-large;
+}
+.diagnosticTool{
+    background-color: #D2DAF5;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.diagnosticToolIcon{
+    font-size: 30px;
+    margin-right: 5%;
+    color: white;
+}
+.diagnosticTool p{
+    font-size: x-large;
+    margin-left: 10%;
+}
+.charContainer:focus,
+.charContainer:active {
+    border: 1px solid rgb(13, 94, 138);
+    background-color: #EEFAFF ;
+    box-shadow: 2px 2px 2px rgb(13, 94, 138);
+	outline: 0;
+}
+.percentagecommen{
+    color: #d6d6d6;
+    font-size:large;
+}
+h3{   
+    font-size:large;
+}
+.charContainer{    
+    border: 1px solid #d6d6d6;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #d6d6d6;
+    padding: 0px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.info{
+    color:gray;
+}
+.circularChartInfo{
+    border: 1px solid #d6d6d6;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #d6d6d6;  
+    width: 40%;
+    padding-bottom: 2%;
+}
+.infoIcon{
+    color:white;
+    background-color: grey;
+    border-radius: 50%;
+    font-size: 20px;  
+}
+.footerChart{
+    color: black;
+    padding-bottom: 10%;
+    padding-top: 30%;
+}
+.circularChartInfo li{
+    list-style: none;
+}
+.circularChartInfo li:before {
+    content: "\25a0";
+    margin-right: 10px;
+    font-size: 30px;       
+  }
+.circularChartInfo li:first-child::before{    
+    color: blue;   
+}
+.circularChartInfo li:last-child::before{    
+    color: gray;   
+}
+
+.headerAreaCSection{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.headerAreaCSection p{
+    font-size:x-large;
+    text-transform: uppercase;
+}
+.buttonsAreaSec{
+    display: inline-block;
+    justify-content: space-between;
+}
+.dayButton{
+    margin-left: 5px;
+    background-color:#BFCAF0;
+    color:white;
+    border: 1px solid #BFCAF0;
+    border-radius: 15%;
+    padding: 10px 5px 10px 5px;
+}
+.weekButton,
+.quarterButton,
+.halfButton,
+.yearButton{
+    margin-left: 5px;
+    color: white;
+    background-color:#4A6FF0;
+    border: 1px solid #BFCAF0;
+    border-radius: 15%;
+    padding: 10px 5px 10px 5px;
+}
+.monthButton{
+    margin-left: 5px;
+    color: white;
+    background-color:#102058;
+    border: 1px solid #102058;
+    border-radius: 15%;
+    padding: 10px 5px 10px 5px;
+}
+
+#areaChart{
+    margin-top: 100px;
+}

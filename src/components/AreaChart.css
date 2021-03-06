@@ -1,0 +1,12 @@
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.xaxis path {     
+    stroke:#CCCCCC;
+}
+
+  
+.pointChart{ fill: rgb(13, 94, 138); }
